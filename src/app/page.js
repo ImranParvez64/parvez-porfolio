@@ -31,7 +31,7 @@ const page = () => {
             </p>
             {/* btn and socials */}
             <div className="flex flex-col lg:flex-row items-center gap-8">
-              <a href="/cv.pdf" download>
+              <a href="/mycv1.pdf" download>
                 <Button
                   variant={"outline"}
                   size={"lg"}
