@@ -22,7 +22,7 @@ import { motion } from "framer-motion";
 const about = {
   title: "About me",
   description:
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit eos iure porro vel ad harum nesciunt rem sit ipsa repellat",
+    "I’m a passionate developer who loves creating digital experiences and learning new things. I enjoy turning ideas into real, functional projects.",
   info: [
     {
       fieldName: "Name",
@@ -64,27 +64,12 @@ const experience = {
   icon: "/assets/resume/badge.svg",
   title: "My experience",
   description:
-    "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis eaque hic tempora in earum eius quibusdam, nobis nesciunt odio architecto!",
+    "I’ve gained hands-on experience by working on real projects, learning new technologies, and improving my problem-solving skills with every challenge.",
   items: [
     {
-      company: "Tech Solutions Inc",
-      position: "Full Stack Developer",
-      duration: "2022 - Present",
-    },
-    {
-      company: "Web Design",
-      position: "Frontend Developer Intern",
-      duration: "Summer 2021",
-    },
-    {
-      company: "E-commerce Startup",
-      position: "Frontend Developer Intern",
-      duration: "Summer 2021-2022",
-    },
-    {
-      company: "Tech Startup",
-      position: "Frontend Developer Intern",
-      duration: "Summer 2021-2025",
+      company: "Bdcalling Academy",
+      position: "MERN Stack Developer",
+      duration: "2025 ",
     },
   ],
 };
@@ -94,27 +79,22 @@ const education = {
   icon: "/assets/resume/cap.svg",
   title: "My education",
   description:
-    "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam suscipit iusto aliquid repellat.",
+    "My education has helped me build a strong foundation in technology and development. I continuously learn and explore new concepts to stay ahead.",
   items: [
     {
-      institution: "Online Course Platform",
-      degree: "Full Stack Web Development Bootcamp",
-      duration: "2023",
+      institution: "Uttara University(UU)",
+      degree: " B.Sc. in Computer Science and Engineering (CSE) ",
+      duration: "2025 - Present",
     },
     {
-      institution: "Online Course Platform",
-      degree: "Full Stack Web Development Bootcamp",
-      duration: "2023",
+      institution: "Barishal Polytechnic Institute",
+      degree: "Computer Technology",
+      duration: "2020 - 2025",
     },
     {
-      institution: "Online Course Platform",
-      degree: "Full Stack Web Development Bootcamp",
-      duration: "2023",
-    },
-    {
-      institution: "Online Course Platform",
-      degree: "Full Stack Web Development Bootcamp",
-      duration: "2023",
+      institution: "Barishal Technical School & College",
+      degree: "Information & Computer Technology",
+      duration: "2018 - 2020",
     },
   ],
 };
@@ -123,7 +103,7 @@ const education = {
 const skill = {
   title: "My skills",
   description:
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore odio accusantium ad.",
+    "I work with a variety of tools and technologies, focusing on clean code, practical solutions, and creative thinking to build efficient and modern applications.",
   skillList: [
     {
       icon: <FaHtml5 />,
@@ -171,13 +151,36 @@ export default function Resume() {
       className="min-h-[80vh] flex justify-center  xl:py-0"
     >
       <div className="container mx-auto">
-        <Tabs className="flex flex-col md:flex-row gap-10 " defaultValue="experience">
+        <Tabs
+          className="flex flex-col md:flex-row gap-10 "
+          defaultValue="experience"
+        >
           <div className="flex  justify-center">
             <TabsList className=" flex mt-10  gap-5 flex-col  p-2 **:bg-[#27272c] **:rounded-md **:px-30 **:py-1 group-hover:bg-accent">
-              <TabsTrigger value="experience"   className="data-[state=active]:bg-accent data-[state=active]:text-black">Experience</TabsTrigger>
-              <TabsTrigger value="education"  className="data-[state=active]:bg-accent data-[state=active]:text-black">Education</TabsTrigger>
-              <TabsTrigger value="skills"  className="data-[state=active]:bg-accent data-[state=active]:text-black">Skills</TabsTrigger>
-              <TabsTrigger value="about"  className="data-[state=active]:bg-accent data-[state=active]:text-black">About me</TabsTrigger>
+              <TabsTrigger
+                value="experience"
+                className="data-[state=active]:bg-accent data-[state=active]:text-black"
+              >
+                Experience
+              </TabsTrigger>
+              <TabsTrigger
+                value="education"
+                className="data-[state=active]:bg-accent data-[state=active]:text-black"
+              >
+                Education
+              </TabsTrigger>
+              <TabsTrigger
+                value="skills"
+                className="data-[state=active]:bg-accent data-[state=active]:text-black"
+              >
+                Skills
+              </TabsTrigger>
+              <TabsTrigger
+                value="about"
+                className="data-[state=active]:bg-accent data-[state=active]:text-black"
+              >
+                About me
+              </TabsTrigger>
             </TabsList>
           </div>
 
@@ -302,6 +305,3 @@ export default function Resume() {
     </motion.div>
   );
 }
-// flex flex-col **: **:w-100  gap-4 **:rounded-md  **:hover:bg-accent **:inline-flex items-center w-full **:bg-[#27272c] justify-center whitespace-nowrap text-white rounded-lg p-3 text-balance font-medium ring-offset-white transition-all disabled:pointer-events-none disabled:opacity-50 data-[state=active]:bg-accent data-[state=active]:text-primary data-[state=active]:font-bold data-[state=active]:shadow-sm
-
-// *:px-40 **:py-2 **:rounded-md **:bg-[#27272c] **:hover:bg-accent

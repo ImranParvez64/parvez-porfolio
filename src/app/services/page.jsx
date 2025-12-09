@@ -14,7 +14,7 @@ export const services = [
   },
   {
     num: "02",
-    title: "Frontend Development",
+    title: "Frontend Develop",
     description:
       "Building fast, responsive, and modern websites using Next.js, React, and Tailwind CSS.",
     slug: "frontend-development",

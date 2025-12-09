@@ -83,22 +83,23 @@ const Contact1 = () => {
 
           {/* CONTACT INFO + SOCIAL BELOW IN MOBILE */}
           <div className="flex flex-col w-full lg:w-1/2 gap-8">
-            <ul className="flex flex-col gap-7 bg-[#27272c] p-8 rounded-xl">
-              {info.map((item, index) => (
-                <li key={index} className="flex items-center gap-6">
-                  <div className="w-14 h-14 bg-[#323238] text-accent rounded-md flex items-center justify-center">
-                    <div className="text-[26px]">{item.icon}</div>
-                  </div>
-                  <div className="flex-1">
-                    <p className="text-white/60">{item.title}</p>
-                    <h3 className="text-xl text-white">{item.description}</h3>
-                  </div>
-                </li>
-              ))}
-            </ul>
+<ul className="flex flex-col gap-7 bg-[#27272c] p-8 rounded-xl">
+  {info.map((item, index) => (
+    <li key={index} className="flex items-center gap-6">
+      <div className="w-14 h-14 bg-[#323238] text-accent rounded-md flex items-center justify-center">
+        <div className="text-[26px]">{item.icon}</div>
+      </div>
+      <div className="flex-1">
+        <p className="text-white/60 text-sm">{item.title}</p>
+        <h3 className="text-xs text-white">{item.description}</h3>
+      </div>
+    </li>
+  ))}
+</ul>
+
 
             {/* SOCIAL BOTTOM */}
-            <div className="mt-2">
+            <div className="mt-2 flex justify-center ">
               <Social
                 containerStyles="flex gap-6"
                 iconStyles="w-14 h-14 border border-accent rounded-full flex justify-center items-center text-accent text-lg hover:bg-accent hover:text-primary duration-300"
