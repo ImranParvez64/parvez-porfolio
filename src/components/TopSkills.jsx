@@ -51,7 +51,7 @@ const skill = {
 
 const TopSkills = () => {
   return (
-    <div className="container mx-auto my-10 md:mb-15">
+    <div className="container mx-auto my-30 md:mb-15">
       <h1 className="text-3xl font-semibold md:text-5xl text-accent mb-6 md:mb-8 text-center md:text-start">
         Professional Skills
       </h1>

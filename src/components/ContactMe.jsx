@@ -4,7 +4,7 @@ import Contact1 from "./ui/Contact1";
 
 const ContactMe = () => {
   return (
-    <div className="container mx-auto my-10 md:mb-15">
+    <div className="container mx-auto my-30 md:mb-15">
       <h1 className="text-3xl font-semibold md:text-5xl text-accent  md:mb-4 text-center md:text-start">
         Contact Me
       </h1>
