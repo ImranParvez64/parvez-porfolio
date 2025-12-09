@@ -8,7 +8,7 @@ import { FiDownload } from "react-icons/fi";
 import Resume from "./resume/page";
 import Services from "./services/page";
 import Work from "./work/page";
-import Contact from "./contact/page";
+import Contact from "./contact/contact";
 import MyWork from "@/components/Work";
 
 const page = () => {
