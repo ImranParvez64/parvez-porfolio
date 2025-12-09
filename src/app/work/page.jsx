@@ -22,46 +22,46 @@ const projects = [
   {
     num: "01",
     category: "frontend",
-    title: "project 1",
+    title: "Daily Hut",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores est doloribus iste earum libero ipsam, voluptas pariatur veritatis impedit praesentium.",
-    stck: [{ name: "Html 5" }, { name: "Css 3" }, { name: "Javascript" }],
-    image: "/assets/work/thumb1.png",
-    live: "",
-    github: "",
+      "A modern grocery shop website where users can browse products, see pricing, and easily add items to their cart. Built with a clean UI and smooth user experience.",
+    stck: [{ name: "React.js" }, { name: "Next.js" }, { name: "Javascript" }],
+    image: "/assets/work/2.png",
+    live: "https://daily-hut.vercel.app/",
+    github: "https://github.com/ImranParvez64/daily-hut.git",
   },
   {
     num: "02",
-    category: "fullstack",
-    title: "project 2",
+    category: "frontend",
+    title: "Edunexi",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores est doloribus iste earum libero ipsam, voluptas pariatur veritatis impedit praesentium.",
-    stck: [{ name: "Html 5" }, { name: "Css 3" }, { name: "Javascript" }],
-    image: "/assets/work/thumb1.png",
-    live: "",
-    github: "",
+      "A modern Learning Management System where users can enroll in courses, track progress, and learn through an intuitive and user-friendly interface.",
+    stck: [{ name: "React.js" }, { name: "Next.js" }, { name: "Javascript" }],
+    image: "/assets/work/6.png",
+    live: "https://edu-nexi.vercel.app/",
+    github: "https://github.com/ImranParvez64/edu-nexi.git",
   },
   {
     num: "03",
     category: "frontend",
-    title: "project 1",
+    title: "Deshi Cart",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores est doloribus iste earum libero ipsam, voluptas pariatur veritatis impedit praesentium.",
-    stck: [{ name: "Html 5" }, { name: "Css 3" }, { name: "Javascript" }],
-    image: "/assets/work/thumb2.png",
-    live: "",
-    github: "",
+      "A modern multi-category shopping platform where users can explore clothing, baby products, home essentials, and various lifestyle items through a clean, intuitive.",
+    stck: [{ name: "React.js" }, { name: "Next.js" }, { name: "Javascript" }],
+    image: "/assets/work/3.png",
+    live: "https://deshi-cart-black.vercel.app/",
+    github: "https://github.com/ImranParvez64/deshiCart.git",
   },
   {
     num: "04",
     category: "frontend",
-    title: "project 1",
+    title: "G3-Architecs",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores est doloribus iste earum libero ipsam, voluptas pariatur veritatis impedit praesentium.",
-    stck: [{ name: "Html 5" }, { name: "Css 3" }, { name: "Javascript" }],
-    image: "/assets/work/thumb2.png",
-    live: "",
-    github: "",
+      "A modern real estate platform where users can explore properties, compare options, and make informed decisions through a clean and intuitive interface.",
+    stck: [{ name: "Html 5" }, { name: "Css 3" }, { name: "TailwindCSS" }],
+    image: "/assets/work/4.png",
+    live: "https://g3architecs.vercel.app/",
+    github: "https://github.com/ImranParvez64/G3-Architecs.git",
   },
 ];
 const Work = () => {
@@ -86,7 +86,7 @@ const Work = () => {
                 {project.num}
               </div>
               <h2 className="text-[42px] font-bold leading-none text-white group-hover:text-accent transition-all duration-500 capitalize">
-                {project.category} project
+                {project.title}
               </h2>
               <p>{project.description}</p>
               <ul className="flex gap-4">

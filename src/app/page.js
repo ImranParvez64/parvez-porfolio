@@ -8,8 +8,10 @@ import { FiDownload } from "react-icons/fi";
 import Resume from "./resume/page";
 import Services from "./services/page";
 import Work from "./work/page";
-import Contact from "./contact/contact";
 import MyWork from "@/components/Work";
+import TopSkills from "@/components/TopSkills";
+import Contact from "./resume/hireme/page";
+import ContactMe from "@/components/ContactMe";
 
 const page = () => {
   return (
@@ -55,7 +57,9 @@ const page = () => {
 
       </div>
       <Stats />
+      <TopSkills></TopSkills>
       <MyWork></MyWork>
+      <ContactMe></ContactMe>
     </section>
   );
 };

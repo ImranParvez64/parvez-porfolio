@@ -16,7 +16,7 @@ const Header = () => {
                 {/*  navbar  */}
                 <div className="hidden md:flex items-center gap-8">
                     <Nav></Nav>
-                    <Link href={"/contact"}>
+                    <Link href={"/resume/hireme"}>
                     <Button variant={""} className={'cursor-pointer'}>Hire me</Button>
                     </Link>
                 </div>

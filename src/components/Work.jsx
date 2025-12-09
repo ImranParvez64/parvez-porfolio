@@ -22,7 +22,7 @@ const projects = [
     description:
       "A modern Learning Management System where users can enroll in courses, track progress, and learn through an intuitive and user-friendly interface.",
     stck: [{ name: "React.js" }, { name: "Next.js" }, { name: "Javascript" }],
-    image: "/assets/work/2.png",
+    image: "/assets/work/6.png",
     live: "https://edu-nexi.vercel.app/",
     github: "https://github.com/ImranParvez64/edu-nexi.git",
   },
@@ -40,13 +40,13 @@ const projects = [
   {
     num: "04",
     category: "frontend",
-    title: "project 1",
+    title: "G3-Architecs",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores est doloribus iste earum libero ipsam, voluptas pariatur veritatis impedit praesentium.",
-    stck: [{ name: "Html 5" }, { name: "Css 3" }, { name: "Javascript" }],
-    image: "/assets/work/thumb2.png",
-    live: "",
-    github: "",
+      "A modern real estate platform where users can explore properties, compare options, and make informed decisions through a clean and intuitive interface.",
+    stck: [{ name: "Html 5" }, { name: "Css 3" }, { name: "TailwindCSS" }],
+    image: "/assets/work/4.png",
+    live: "https://g3architecs.vercel.app/",
+    github: "https://github.com/ImranParvez64/G3-Architecs.git",
   },
 ];
 
@@ -73,7 +73,9 @@ const MyWork = () => {
               <h2 className="text-3xl font-semibold text-accent mt-3">
                 {items.title}
               </h2>
-              <p className="text-sm mt-3 mb-2 text-justify">{items.description}</p>
+              <p className="text-sm mt-3 mb-2 text-justify">
+                {items.description}
+              </p>
               <ul className="flex gap-4">
                 {items.stck.map((item, index) => {
                   return (
